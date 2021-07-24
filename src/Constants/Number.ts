@@ -1,0 +1,1 @@
+export const ONLY_NUMBERS = "Value should contains only numbers!";

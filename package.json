@@ -1,0 +1,18 @@
+{
+  "name": "front-end-validation",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "dependencies": {
+    "front-end-utils": "git@bitbucket.org:adrijan9/front-end-utils.git",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "rollup": "^2.45.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
