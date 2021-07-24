@@ -1,5 +1,5 @@
 import Message from "../Helpers/Message";
-import IsBoolean from "front-end-utils/utils/boolean/IsBoolean";
+import IsBoolean from "../Utils/Boolean/IsBoolean";
 
 export const OPERATION_ALPHABETIC = "alphabetic";
 export const OPERATION_DASH = "dash";

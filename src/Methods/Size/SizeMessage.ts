@@ -1,5 +1,5 @@
-import IsArray from "front-end-utils/utils/array/IsArray";
-import IsNumber from "front-end-utils/utils/numbers/IsNumber";
+import IsArray from "../../Utils/Array/IsArray";
+import IsNumber from "../../Utils/Numbers/IsNumber";
 import Message from "../../Helpers/Message";
 
 export default function (value: any, key: string, operation: string): string {

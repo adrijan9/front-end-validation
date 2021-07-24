@@ -8,6 +8,7 @@ export default [
             format: 'esm',
         },
         plugins: [typescript()],
+        external: [ 'moment' ],
     },
     {
         input: './src/index.ts',
@@ -16,5 +17,6 @@ export default [
             format: 'cjs',
         },
         plugins: [typescript()],
+        external: [ 'moment' ],
     },
 ]

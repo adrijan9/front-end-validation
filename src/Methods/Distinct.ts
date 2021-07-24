@@ -1,8 +1,8 @@
-import GetDuplicatesFromArray from "front-end-utils/utils/array/GetDuplicatesFromArray";
-import IsArray from "front-end-utils/utils/array/IsArray";
+import GetDuplicatesFromArray from "../Utils/Array/GetDuplicatesFromArray";
+import IsArray from "../Utils/Array/IsArray";
 import {EMPTY_ARRAY, NO_ARRAY_PROVIDED} from "../Constants/Array";
 import Message from "../Helpers/Message";
-import IsObjectEmpty from "front-end-utils/utils/object/IsObjectEmpty";
+import IsObjectEmpty from "../Utils/Object/IsObjectEmpty";
 
 export default function (ruleValue: boolean, value: Array<any>, key: string): Record<any, any> {
     if(!IsArray(value)){

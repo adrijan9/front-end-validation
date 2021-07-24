@@ -1,9 +1,9 @@
-import IsNumber from "front-end-utils/utils/numbers/IsNumber";
+import IsNumber from "../../Utils/Numbers/IsNumber";
 import {ONLY_NUMBERS} from "../../Constants/Number";
 import Message from "../../Helpers/Message";
-import IsObject from "front-end-utils/utils/object/IsObject";
+import IsObject from "../../Utils/Object/IsObject";
 import {OBJECT_NOT_PROVIDED} from "../../Constants/Object";
-import Isset from "front-end-utils/utils/object/Isset";
+import Isset from "../../Utils/Object/Isset";
 import DigitsBetweenInterface from "./Interfaces/DigitsBetweenInterface";
 
 export default function (ruleValue: DigitsBetweenInterface, value: any, key: string) {

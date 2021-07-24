@@ -1,4 +1,4 @@
-import IsBoolean from "front-end-utils/utils/boolean/IsBoolean";
+import IsBoolean from "../Utils/Boolean/IsBoolean";
 import Message from "../Helpers/Message";
 
 export default function (ruleValue: boolean, value: any, key: string) {

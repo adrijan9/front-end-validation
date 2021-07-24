@@ -1,4 +1,4 @@
-import IsNumber from "front-end-utils/utils/numbers/IsNumber";
+import IsNumber from "../../Utils/Numbers/IsNumber";
 
 /**
  * Get size

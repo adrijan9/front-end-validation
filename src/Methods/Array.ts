@@ -1,5 +1,5 @@
 import Message from "../Helpers/Message";
-import IsArray from "front-end-utils/utils/array/IsArray";
+import IsArray from "../Utils/Array/IsArray";
 
 export default function (ruleValue: boolean, value: any, key: string) {
     let status = false,

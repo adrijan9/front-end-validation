@@ -1,7 +1,7 @@
-import IsUndefined from "front-end-utils/utils/IsUndefined";
-import IsNull from "front-end-utils/utils/IsNull";
-import IsEmptyString from "front-end-utils/utils/string/IsEmptyString";
-import IsArray from "front-end-utils/utils/array/IsArray";
+import IsUndefined from "../Utils/IsUndefined";
+import IsNull from "../Utils/IsNull";
+import IsEmptyString from "../Utils/String/IsEmptyString";
+import IsArray from "../Utils/Array/IsArray";
 import Message from "../Helpers/Message";
 
 export default function (requiredValue: boolean, value: any, key: string) {

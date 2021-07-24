@@ -1,5 +1,5 @@
 import Message from "../Helpers/Message";
-import IsArray from "front-end-utils/utils/array/IsArray";
+import IsArray from "../Utils/Array/IsArray";
 import {NO_ARRAY_PROVIDED} from "../Constants/Array";
 
 export default function (ruleValue: Array<number>, value: number, key: string) {

@@ -1,6 +1,6 @@
-import IsDate from "front-end-utils/utils/dates/IsDate";
+import IsDate from "../../../Utils/Dates/IsDate";
 import moment from "moment";
-import DateFormats from "front-end-utils/utils/dates/DateFormats";
+import DateFormats from "../../../Utils/Dates/DateFormats";
 import ObjectContainsKey from "../../../Helpers/ObjectContainsValue";
 import {OBJECT_KEY_NOT_FOUND} from "../../../Constants/Object";
 

@@ -1,5 +1,5 @@
 import Message from "../Helpers/Message";
-import Isset from "front-end-utils/utils/object/Isset";
+import Isset from "../Utils/Object/Isset";
 
 function createConfirmationProperty(key: string, suffix = "confirmation"){
     return `${key}_${suffix}`;

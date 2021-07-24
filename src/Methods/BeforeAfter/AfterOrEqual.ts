@@ -1,6 +1,6 @@
 import moment from "moment";
 import Message from "../../Helpers/Message";
-import UcFirst from "front-end-utils/utils/string/UcFirst";
+import UcFirst from "../../Utils/String/UcFirst";
 import GetRuleValue from "./Helpers/GetRuleValue";
 
 export default function (ruleValue: string, value: any, key: string, model: Record<any, any>) {

@@ -1,6 +1,6 @@
 import Message from "../Helpers/Message";
-import IsArray from "front-end-utils/utils/array/IsArray";
-import IsString from "front-end-utils/utils/string/IsString";
+import IsArray from "../Utils/Array/IsArray";
+import IsString from "../Utils/String/IsString";
 import {EMPTY_ARRAY} from "../Constants/Array";
 
 /**

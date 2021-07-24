@@ -1,6 +1,6 @@
-import IsNull from "front-end-utils/utils/IsNull";
+import IsNull from "../Utils/IsNull";
 import Message from "../Helpers/Message";
-import Isset from "front-end-utils/utils/object/Isset";
+import Isset from "../Utils/Object/Isset";
 import {OBJECT_KEY_NOT_FOUND} from "../Constants/Object";
 
 export default function (ruleValue: any, value: any, key: string, model: Record<any, any>) {
