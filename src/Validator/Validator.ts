@@ -95,7 +95,7 @@ class Validator extends Methods {
         for (const item in this.model) {
             const currentItem = this.model[item];
 
-            if (!!currentItem.errors.length) {
+            if (Isset(currentItem, 'errors') && !!currentItem.errors.length) {
                 errors = {
                     ...errors,
                     [item]: currentItem.errors
