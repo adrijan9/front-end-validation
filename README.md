@@ -1,6 +1,9 @@
 # front-end-validation
 Validate javascript or typescript objects.
 
+# Installation
+```npm i front-end-validation```
+
 # Example
 
 ````javascript
