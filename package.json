@@ -4,7 +4,6 @@
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "dependencies": {
-    "front-end-utils": "git@bitbucket.org:adrijan9/front-end-utils.git",
     "moment": "^2.29.1"
   },
   "devDependencies": {
