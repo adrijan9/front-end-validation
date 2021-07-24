@@ -1,10 +1,10 @@
-import ArrayHasItems from "front-end-utils/utils/array/ArrayHasItems";
-import IsObjectEmpty from "front-end-utils/utils/object/IsObjectEmpty";
-import Isset from "front-end-utils/utils/object/Isset";
+import ArrayHasItems from "../Utils/Array/ArrayHasItems";
+import IsObjectEmpty from "../Utils/Object/IsObjectEmpty";
+import Isset from "../Utils/Object/Isset";
 import Methods from "./Methods";
-import UcFirst from "front-end-utils/utils/string/UcFirst";
-import IsFunction from "front-end-utils/utils/IsFunction";
-import IsObject from "front-end-utils/utils/object/IsObject";
+import UcFirst from "../Utils/String/UcFirst";
+import IsFunction from "../Utils/IsFunction";
+import IsObject from "../Utils/Object/IsObject";
 
 /**
  * Validator class
