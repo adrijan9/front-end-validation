@@ -37,11 +37,7 @@ declare class Validator extends Methods {
      * @param errors
      * @param rules
      */
-    bailExist(errors: Array<any>, rules: Record<any, any>): {
-        status: boolean;
-        model: Record<any, any>;
-        errors: Record<any, any>;
-    };
+    bailExist(errors: Array<any>, rules: Record<any, any>): any;
     /**
      * Response
      */

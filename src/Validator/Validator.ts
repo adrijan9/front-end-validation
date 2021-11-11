@@ -31,10 +31,10 @@ class Validator extends Methods {
         }
 
         for (const key in this.model) {
-            const model = this.model[key],
-                value = model.value,
-                rules = model.rules,
-                errors = this.validateRules(key, value, rules);
+            const model = this.model[key];
+            const value = model.value;
+            const rules = model.rules;
+            const errors = this.validateRules(key, value, rules);
 
             this.model[key]["errors"] = errors;
 
@@ -68,7 +68,7 @@ class Validator extends Methods {
 
             const ruleResolver = this.methods[ruleFunctionName];
 
-            if (this.excluded.indexOf(ruleKey) !== -1) {
+            if (this.excluded.indexOf(ruleKey) === -1) {
                 if(!IsFunction(ruleResolver)) {
                     throw new Error(`${ruleFunctionName} rule does not exists.`);
                 }
@@ -102,6 +102,7 @@ class Validator extends Methods {
                 };
             }
         }
+
         return errors;
     }
 
@@ -125,14 +126,7 @@ class Validator extends Methods {
      * @param rules
      */
     bailExist(errors: Array<any>, rules: Record<any, any>){
-        if(errors.length > 0 && Isset(rules, this.BAIL)) {
-            return this.handleResponse();
-        }
-        return {
-            status: true,
-            errors: [],
-            model: this.model
-        };
+        return errors.length > 0 && Isset(rules, this.BAIL);
     }
 
     /**
